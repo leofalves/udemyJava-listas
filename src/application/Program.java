@@ -70,6 +70,7 @@ public class Program {
 		String name = list.stream().filter(x -> x.charAt(0) == 'M').findFirst().orElse(null);
 		
 		System.out.println(name);
+		sc.close();
 		
 	
 	}
